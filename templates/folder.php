@@ -1,8 +1,7 @@
 <?php
     
     include_once("templates/header.php");  
-     include_once("helps/url.php");
-    
+
 ?>
 
 

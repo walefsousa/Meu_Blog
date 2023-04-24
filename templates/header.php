@@ -26,7 +26,7 @@ include_once("helps/url.php");
         </a>
         <nav>
             <ul id="navbar">
-                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="index.php" class="nav-link">Home</a></li>
                 <li><a href="" class="nav-link">Categorias</a></li>
                 <li><a href="contatos.php" class="nav-link">Contato</a></li>
                 <li><a href="" class="nav-link">Sobre</a></li>
