@@ -28,7 +28,7 @@ include_once("helps/url.php");
             <ul id="navbar">
                 <li><a href="" class="nav-link">Home</a></li>
                 <li><a href="" class="nav-link">Categorias</a></li>
-                <li><a href="<?= $BASE_URL ?>contatos.php" class="nav-link">Contato</a></li>
+                <li><a href="contatos.php" class="nav-link">Contato</a></li>
                 <li><a href="" class="nav-link">Sobre</a></li>
             </ul>
         </nav>
