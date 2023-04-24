@@ -1,6 +1,8 @@
 <?php
 
 include_once("helps/url.php");
+include_once("data/posts.php");
+include_once("data/categorias.php");
 ?>
 
 <!DOCTYPE html>
