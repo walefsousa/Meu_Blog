@@ -27,7 +27,4 @@
     </div>
 </main>
 
-<?php 
-
-    include_once("templates/folder.php"); 
-?>
+<?php include_once("templates/folder.php"); ?>
