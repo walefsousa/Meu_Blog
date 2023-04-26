@@ -6,8 +6,8 @@
 
 <main>
     <div id="title-container">
-        <h1>WMS code</h1>
-        <p>Seu Blog de harware e programação</p>
+        <h1>WMS Tech</h1>
+        <p>Hardware e tecnologia</p>
     </div>
     <div id="posts-container">
         <?php foreach ($mensagens as $post): ?>

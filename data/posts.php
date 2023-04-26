@@ -3,30 +3,30 @@
   $mensagens = [
     [
       'id' => 1 ,
-      'title' => 'Programando em PHP' ,
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!' ,
-      'tags' => [ 'programação' , 'PHP' , 'lógica de programação' ],
+      'title' => 'Lançamento RTX 4070' ,
+      'description' => 'Em comparação com a RTX 2070 SUPER, a GeForce RTX 4070 é em média 2,6x mais rápida usando o DLSS 3 e, em média, 1,4x mais rápida com o DLSS 3 ativado que a GeForce RTX 3080.' ,
+      'tags' => [ 'harware' , 'GPU' , 'NVIDIA' ],
       'img' => 'prog-1.jpg'
     ],
     [
       'id' => 2 ,
-      'title' => 'Orientação a Objetos com Java' ,
-      'description' => 'Aprenda o paradigma de orientação a objetos com Java, uma linguagem em alto mercado.' ,
-      'tags' => [ 'Java' , 'OOP' , 'Programação Avançada' ],
+      'title' => 'NVIDIA x AMD' ,
+      'description' => 'AMD x Nvidia: Qual é a melhor GPU?' ,
+      'tags' => [ 'Placa de video' , 'AMD' , 'NVIDIA' ],
       'img' => 'prog-2.jpg'
     ],
     [
       'id' => 3 ,
-      'title' => 'A importância da lógica de programação' ,
-      'description' => 'A lógica de programação é o ponto inicial de muitos estudantes de programação, será que é importante?' ,
-      'tags' => [ 'lógica' , 'programação' , 'algoritmos' ],
+      'title' => 'Montagem e Manutenção de Computador do ZERO' ,
+      'description' => 'Aprenda a montar e desmontar o seu próprio computador. Conheça cada peça e seu funcionamento, cuidados e manutenção.' ,
+      'tags' => [ 'TI' , 'Montagem e manutenção ' , 'hardware' ],
       'img' => 'prog-3.jpg' ,
     ],
     [
       'id' => 4 ,
-      'title' => 'Programando em PHP' ,
-      'description' => 'Neste post você vai aprender tudo que precisa para ser um bom programador de PHP!' ,
-      'tags' => [ 'programação' , 'PHP' , 'lógica de programação' ],
+      'title' => 'GTA 6: Data de lançamento, história, personagens, preços e mais' ,
+      'description' => 'Novo jogo da franquia da Rockstar deve chegar após 2025' ,
+      'tags' => [ 'AMD' , 'NVIDIA' , 'Jogos' ],
       'img' => 'prog-4.jpg'
     ],
   ];

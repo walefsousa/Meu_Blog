@@ -1,11 +1,11 @@
 <?php
 
   $categorias = [
-    'PHP' ,
-    'HTML' ,
-    'CSS' ,
-    'JavaScript' ,
-    'Bootstrap' ,
-    'Java' ,
-    'C#'
+    'AMD' ,
+    'NVIDIA' ,
+    'Intel' ,
+    'Jogos' ,
+    'Gigabyte' ,
+    'Downloads' ,
+    'Dicas'
   ];
