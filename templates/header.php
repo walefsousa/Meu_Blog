@@ -29,9 +29,9 @@ include_once("data/categorias.php");
         <nav>
             <ul id="navbar">
                 <li><a href="index.php" class="nav-link">Inicio</a></li>
-                <li><a href="" class="nav-link">Categorias</a></li>
+                <li><a href="#" class="nav-link">Categorias</a></li>
                 <li><a href="contatos.php" class="nav-link">Contato</a></li>
-                <li><a href="" class="nav-link">Sobre</a></li>
+                <li><a href="#" class="nav-link">Sobre</a></li>
             </ul>
         </nav>
     </header>

@@ -9,6 +9,3 @@
 <?php 
     include_once("templates/folder.php"); 
 ?>
-
-</boby>
-</html>
