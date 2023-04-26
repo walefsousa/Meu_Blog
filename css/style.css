@@ -163,12 +163,29 @@ main {
     grid-area: main;
 }
 
+#main-title{
 
+    font-size: 36px;
+    margin-bottom: 30px;
+}
 
 #post-description {
 
     font-style: italic;
     margin-bottom: 40px;
+}
+.post-content{
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.img-container{
+    margin-bottom: 30px;
+
+}
+.img-container img {
+    width: 60%;
+    
 }
 
 

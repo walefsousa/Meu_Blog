@@ -35,3 +35,4 @@ include_once("data/categorias.php");
             </ul>
         </nav>
     </header>
+</body>   
