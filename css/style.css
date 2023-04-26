@@ -1,20 +1,20 @@
-* {
-
-    font-family: 'Montserrat', sans-serif;
+* {  
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
 html {
-
+    
     min-height: 100vh;
     position: relative;
 }
 
 main {
     margin-bottom: 250px;
+    
 }
 
 #logo {
@@ -187,7 +187,40 @@ main {
     width: 60%;
     
 }
+/* POst ASIDE*/
 
+.nav-container {
+    grid-area: sidebar;
+}
+
+#tags-title, #categories-title {
+
+    font-size: 40;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+}
+
+#tag-list, #categories-list {
+    list-style: none;
+}
+
+#tag-list li, #categories-list li {
+    margin-bottom: 10px;
+}
+
+#tag-list a, #categories-list a {
+    color: #666;
+    transition: .55;
+}
+
+#tag-list a:hover, #categories-list a:hover{
+    color: black;
+    
+}
 
 /* Roda pé */
 footer {
@@ -199,4 +232,50 @@ footer {
     background-color: #161616;
     color: aliceblue;
     padding: 40px 0;
+}
+
+/*Mobile*/
+
+@media(max-width:480px){
+
+    /*Home*/
+    header{
+       width: 100%;        
+    }
+
+    #logo{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 50px;
+    }
+    #navbar{
+
+        display: none;
+    }
+    #title-container{
+        min-width: 100%;
+        margin-top: 20px;
+    }
+    #posts-container{
+        margin-top: 20px;
+
+    }
+    .post-box {
+        flex: 100% 1 0;
+        padding: 15px;
+        margin: 0;
+    }
+
+    /*POST*/
+
+    #post-container{
+        grid-template-columns: 100%;
+        padding: 15px;
+        grid-template-areas: "main sidebar";
+    }
+    .img-container{
+        width: 100%;
+    }
 }
